@@ -113,7 +113,7 @@ tsplot<-ggplot(StepsPerInterval,aes(interval,steps))
 tsplot+geom_line(col="darkgreen")+ggtitle("Steps vs Intervals")+xlab("Intervals")+ylab("Steps")
 ```
 
-![plot of chunk unnamed-chunk-6](figure/unnamed-chunk-6-1.png)
+![plot of chunk unnamed-chunk-6](Figure2.png)
 
 2. The 5-minute interval having maximum no. of steps
 
@@ -171,7 +171,7 @@ Newhsteps+geom_histogram(color="blue",fill="cyan")+ggtitle("Histogram with new d
 ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 ```
 
-![plot of chunk unnamed-chunk-11](figure/unnamed-chunk-11-1.png)
+![plot of chunk unnamed-chunk-11](Figure3.png)
 
 ```r
 NewMean<-mean(NewStepsPerDay$NewSteps)
@@ -221,4 +221,4 @@ Newtsplot<-ggplot(NewStepsPerInterval,aes(interval,steps))
 Newtsplot+geom_line(col="red")+ggtitle("Steps vs Intervals")+xlab("Intervals")+ylab("Steps")+facet_grid(TypeOfDay~.)
 ```
 
-![plot of chunk unnamed-chunk-13](figure/unnamed-chunk-13-1.png)
+![plot of chunk unnamed-chunk-13](Figure4.png)
