@@ -78,7 +78,7 @@ hsteps+geom_histogram(col="brown",fill="orange")+ggtitle("Steps Per Day HISTOGRA
 ## Warning: Removed 8 rows containing non-finite values (stat_bin).
 ```
 
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3-1.png)
+![plot of chunk unnamed-chunk-3](Figure1.png)
 
 3. Mean of the number of steps taken per day
 
